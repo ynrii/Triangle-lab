@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Triangle {
     private Point a, b, c;
     private double perimeter, square;
-    private double sideAB, sideBC, sideAC; //Triangle
+    private double sideAB, sideBC, sideAC; //Trianglesides
     private String typeOfTriangle;
 
     public Triangle(Point a, Point b, Point c) {
@@ -79,4 +79,3 @@ public class Triangle {
         return typeOfTriangle.toString();
     }
 }
-
