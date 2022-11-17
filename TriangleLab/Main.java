@@ -38,7 +38,7 @@ public class Main {
                Square = triangle.CalculateSquare();
                sTriangle = triangle;
             }
-          }
+        }
 
         //findmin
         double Square1 = 10000000;
@@ -48,8 +48,7 @@ public class Main {
               Square1 = triangle.CalculateSquare();
               sTriangle1 = triangle;
             }
-          }
-
+        }
 
         for(Triangle thisTriangle : triangles)
         {
@@ -66,10 +65,5 @@ public class Main {
         System.out.println("versatile: " + versatile);
         System.out.println("The largest in square -" + sTriangle);
         System.out.println("The smallest in square - " + sTriangle1);
-
     }
-
 }
-
-
-
